@@ -8,5 +8,8 @@ Steps to run this project:
 
 ## [Franchise](https://franchise.cloud/app/) Postgres GUI
 
+Install
+`npm i -g franchise-client@0.2.7`
+
 Start
 `npx franchise-client@0.2.7`
