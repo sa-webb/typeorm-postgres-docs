@@ -35,7 +35,7 @@ createConnection()
 
     await photoRepository.save(photo);
 
-    /** FIND */
+    /** FIND via QueryBuilder */
     let photos = await connection
       .getRepository(Photo)
       .createQueryBuilder('photo')
@@ -60,7 +60,6 @@ createConnection()
     /** UPDATE */
     // let photoToUpdate = await photoRepository.findOne(1);
     // photoToUpdate.name = "Me, my friends and polar bears";
-
     // await photoRepository.save(photoToUpdate);
 
     /** DELETE */
